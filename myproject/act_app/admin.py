@@ -1,0 +1,12 @@
+from django.contrib import admin
+from models import Table_User_Data, Table_Activity_Data, Table_Selected_Acts, Table_Comments, Table_Likes, Table_Last_Refresh
+
+# Register your models here.
+
+admin.site.register(Table_User_Data)
+admin.site.register(Table_Activity_Data)
+admin.site.register(Table_Selected_Acts)
+admin.site.register(Table_Comments)
+admin.site.register(Table_Likes)
+admin.site.register(Table_Last_Refresh)
+
